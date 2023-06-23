@@ -155,6 +155,9 @@
                                     <a href="{{route('visa.index')}}">Visa</a>
                                 </li>
                                 <li aria-haspopup="true">
+                                    <a href="{{route('blog.index')}}">Blog</a>
+                                </li>
+                                <li aria-haspopup="true">
                                     <a href="{{route('contact.index')}}">Contact Us</a>
                                 </li>
 

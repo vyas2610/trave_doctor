@@ -78,3 +78,15 @@ Route::get('/visa', function () {
 Route::get('/visa-details', function () {
     return view('web.pages.visa.view');
 })->name('visa.view');
+
+Route::get('/blogs', function () {
+    return view('web.pages.blogs.index');
+})->name('blog.index');
+
+Route::get('/single-blog', function () {
+    return view('web.pages.blogs.view');
+})->name('single-blog.view');
+
+Route::get('/country-details', function () {
+    return view('web.pages.country.index');
+})->name('country.index');
