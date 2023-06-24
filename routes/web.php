@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(["prefix" => 'furniture-admin'], function () {
+Route::group(["prefix" => 'travel-admin'], function () {
     Route::get('/login', [LoginController::class, 'showLogin'])->name('login');
     Route::post('/login', [LoginController::class, 'doLogin'])->name('login.post');
 
@@ -39,12 +39,9 @@ Route::group(["prefix" => 'furniture-admin'], function () {
         Route::resources([
             'page'          => PageController::class,
             'slider'        => SliderController::class,
-            'testimonial'   => TestimonialController::class,
             'product'       => ProductController::class,
             'category'      => CategoryController::class,
-            'city'          => CityController::class,
             'gallery'       => GalleryController::class,
-            'video'         => VideoController::class,
 
 
         ]);
