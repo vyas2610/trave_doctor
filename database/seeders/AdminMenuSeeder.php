@@ -69,25 +69,100 @@ class AdminMenuSeeder extends Seeder
             ],
             [
                 'id'    => 8,
-                'label' => 'View Country',
+                'label' => 'Other Details',
                 'icon'  => 'bx bx-notification',
                 'admin_menu_id' => 6,
                 'route_name' => null, // 'admin.product.index',
             ],
-            // [
-            //     'id'    => 9,
-            //     'label' => 'Pages',
-            //     'icon'  => 'bx bx-file',
-            //     'route_name' => 'admin.page.index',
-            //     'admin_menu_id' => null,
-            // ],
-            // [
-            //     'id'    => 10,
-            //     'label' => 'Slides',
-            //     'icon'  => 'bx bx-images',
-            //     'admin_menu_id' => null,
-            //     'route_name' => 'admin.slider.index',
-            // ],
+            [
+                'id'    => 9,
+                'label' => 'Institute',
+                'icon'  => 'bx bx-notification',
+                'admin_menu_id' => 6,
+                'route_name' => null, // 'admin.product.index',
+            ],
+            [
+                'id'    => 10,
+                'label' => 'Additional Details',
+                'icon'  => 'bx bx-notification',
+                'admin_menu_id' => 6,
+                'route_name' => null, // 'admin.product.index',
+            ],
+            [
+                'id'    => 11,
+                'label' => 'Pages',
+                'icon'  => 'bx bx-file',
+                'route_name' => 'admin.page.index',
+                'admin_menu_id' => null,
+            ],
+            [
+                'id'    => 12,
+                'label' => 'Testinonials',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => null,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 13,
+                'label' => 'Faqs',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => null,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 14,
+                'label' => 'Blogs',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => null,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 15,
+                'label' => 'Category',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => 14,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 16,
+                'label' => 'Tags',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => 14,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 17,
+                'label' => 'Add Blogs',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => 14,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 18,
+                'label' => 'Visa',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => null,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 19,
+                'label' => 'Visa Category',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => 18,
+                'route_name' => null //'admin.slider.index',
+            ],
+            [
+                'id'    => 20,
+                'label' => 'Visa Details',
+                'icon'  => 'bx bx-images',
+                'admin_menu_id' => 18,
+                'route_name' => null //'admin.slider.index',
+            ],
+
+
+
+
+
 
             // [
             //     'id'    => 11,
@@ -125,13 +200,13 @@ class AdminMenuSeeder extends Seeder
             //     'admin_menu_id' => null,
             //     'route_name' => null, // 'admin.booking.index',
             // ],
-            // [
-            //     'id'    => 24,
-            //     'label' => 'Logout',
-            //     'icon'  => 'bx bx-power-off',
-            //     'route_name' => 'admin.logout',
-            //     'admin_menu_id' => null,
-            // ],
+            [
+                'id'    => 24,
+                'label' => 'Logout',
+                'icon'  => 'bx bx-power-off',
+                'route_name' => 'admin.logout',
+                'admin_menu_id' => null,
+            ],
         ];
 
         AdminMenu::insert($data);

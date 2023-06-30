@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Login | ' . $site->title)
 
 @section('content')
 <!-- Content -->
@@ -11,7 +10,7 @@
             <!-- Register -->
             <div class="card">
                 <div class="card-body">
-                    <h4 class="mb-2">Welcome to {{ $site->title }}! 👋</h4>
+                    <h4 class="mb-2">Welcome to ! 👋</h4>
                     <p class="mb-4">Please sign-in to your account.</p>
 
                     <x-alert />
